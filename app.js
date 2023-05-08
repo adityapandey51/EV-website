@@ -12,7 +12,7 @@ const bcrypt=require("bcrypt");
 const noOfSaltRounds=10;
 
 
-mongoose.connect('mongodb+srv://adityapandey3082004:'+process.env.PASSWORD+'@cluster0.sy335ht.mongodb.net/evusers');
+mongoose.connect('mongodb+srv://adityapandey3082004:9347158680@cluster0.sy335ht.mongodb.net/evusers');
 const evuserSchema=new mongoose.Schema({
     username:String,
     name:String,
