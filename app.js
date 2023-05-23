@@ -1,9 +1,7 @@
 require('dotenv').config()
 const express=require("express");
 const bodyparser=require("body-parser");
-const https=require("https");
 const mongoose=require("mongoose");
-const { stringify } = require("querystring");
 const app=express();
 app.use(express.static("public"));
 app.use(bodyparser.urlencoded({extended:true}));
